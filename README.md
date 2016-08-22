@@ -1,6 +1,4 @@
-# jgdovin:html-pdf
-
-Meteor wrapper for the NPM html-pdf 
+A fork of [jgdovin:html-pdf](https://github.com/jgdovin/meteor-html-pdf/) with a couple of extra options
 
 ## Installation
 
@@ -18,7 +16,7 @@ Meteor.pdf.save('<h1>My Cool Pdf</h1>', 'myFileName');
 
 this will process your pdf and automatically save the file to the client in a pdf file format.
 
-## usage
+## Usage
 
 Either call asynchronous calls from the html-pdf library with the defined pdf variable. See the library here: https://www.npmjs.com/package/html-pdf
 
